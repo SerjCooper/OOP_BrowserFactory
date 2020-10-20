@@ -6,10 +6,10 @@ public class SomeTest {
     public void TestBrowser(){
         BrowserFactory browserFactory = new BrowserFactory();
 
-        Browser chroBro = browserFactory.createBrowser("Chrome", "12.23");
-        Browser chroBro2 = browserFactory.createBrowser("Chrome", "12.23");
-        Browser fireBro = browserFactory.createBrowser("firefox", "12.23");
-        Browser safBro = browserFactory.createBrowser("safari", "12.23");
+        Browser chroBro = browserFactory.createBrowser("Chrome", "85");
+        Browser chroBro2 = browserFactory.createBrowser("Chrome", "85");
+        Browser fireBro = browserFactory.createBrowser("firefox", "81");
+        Browser safBro = browserFactory.createBrowser("safari", "45");
         Browser defBro = browserFactory.createBrowser("kakoy-to browser", "100500");
 
         TestUi testUi = new TestUi(chroBro);
