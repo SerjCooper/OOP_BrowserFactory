@@ -22,4 +22,16 @@ public class BrowserFactory {
                 return new Chrome(versionsChrome.get(versionsChrome.size() - 1));
         }
     }
+
+    public List<String> getVersionsChrome() {
+        return versionsChrome;
+    }
+
+    public List<String> getVersionsFirefox() {
+        return versionsFirefox;
+    }
+
+    public List<String> getVersionsSafari() {
+        return versionsSafari;
+    }
 }
