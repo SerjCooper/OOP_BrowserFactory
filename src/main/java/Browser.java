@@ -24,4 +24,6 @@ public abstract class Browser {
         }
         return false;
     }
+
+    public abstract int execute();
 }

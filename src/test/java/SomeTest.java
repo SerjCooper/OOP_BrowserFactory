@@ -29,6 +29,9 @@ public class SomeTest {
         System.out.println(testUi4.testBrowser());
 
         testUi.compareBrowsers(chroBro, chroBro2);
-        testUi.compareBrowsers(chroBro, fireBro);
+
+        System.out.println(chroBro.execute());
+        System.out.println(fireBro.execute());
+        System.out.println(safBro.execute());
     }
 }
